@@ -1,0 +1,13 @@
+.content
+  %h1= @post.title
+  %hr
+  %p= @post.body
+  %small
+    Written by
+    = @post.user.email
+  %br
+  %small= link_to "Back", root_path
+
+  - if current_user == @post.user
+    %small= link_to "Edit", edit_post_path(@post)
+    %small= link_to "Delete", @post, method: :delete, data: { confirm: "Are you sure?" }
