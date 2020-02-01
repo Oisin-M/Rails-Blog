@@ -1,24 +1,6 @@
-# README
+# Blog Implemented with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a blog application I created with Ruby on Rails. It has user authentication implemented with the devise rubygem.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The blog looks as follows:
+<img src="Blog1.png">
