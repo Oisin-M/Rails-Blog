@@ -10,3 +10,10 @@ One can easily create a new post, or edit or delete an existing post provided th
 
 Users can also view anyone's post. Note that in this screenshot the user is also the post creator so they have options to edit or delete the post. These are not available if the user is not the post creator.
 <img src="MarkdownImages/Blog1.PNG">
+
+
+`code`
+
+$\lambda=20$
+$$l=2$$
+$l=2$
